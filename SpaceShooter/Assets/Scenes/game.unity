@@ -362,6 +362,11 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[2]
       value: 
       objectReference: {fileID: 672037494}
+    - target: {fileID: 1277273689, guid: 614d1a7dd9aa5479cafd3f1ae5d2c0e4, type: 3}
+      propertyPath: waveConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: 740c166f5622f4fc682068c26eb93263,
+        type: 2}
     - target: {fileID: 2039767905043581563, guid: 614d1a7dd9aa5479cafd3f1ae5d2c0e4,
         type: 3}
       propertyPath: m_LocalPosition.x
