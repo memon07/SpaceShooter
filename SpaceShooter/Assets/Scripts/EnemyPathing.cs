@@ -17,7 +17,7 @@ public class EnemyPathing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        NewMethod();
+        Move();
 
     }
 
@@ -26,7 +26,7 @@ public class EnemyPathing : MonoBehaviour
         this.waveConfig = waveConfig;
     }
 
-    private void NewMethod()
+    private void Move()
     {
         if (waypointIndex <= waypoints.Count - 1)
         {
