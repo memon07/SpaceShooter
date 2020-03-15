@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameSession : MonoBehaviour
+public class Player : MonoBehaviour
 {
     int score = 0;
 
@@ -14,7 +14,7 @@ public class GameSession : MonoBehaviour
 
     private void SetUpSingleton()
     {
-        int numberGameSesions = FindObjectsOfType<GameSession>().Length;
+        int numberGameSesions = FindObjectsOfType<Player>().Length;
         if(numberGameSesions > 1)
         {
             Destroy(gameObject);
